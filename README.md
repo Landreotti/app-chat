@@ -1,2 +1,2 @@
 # app-chat
-Simple chat using Chat GPT Rest API
+This app is a simple react chat created with Vite for studing how to using Open AI Rest API.
