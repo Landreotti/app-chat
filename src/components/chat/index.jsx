@@ -9,8 +9,10 @@ var foo = "Chat"
 const Chat = () => {
   const chatProps = useMultiChatLogic(
     import.meta.env.VITE_PROJECT_ID,
-    import.meta.env.VITE_PROJETCT_USER,
-    import.meta.env.VITE_PROJETCT_USER_PASS
+    "testuser",
+    "123456"
+    //import.meta.env.VITE_PROJETCT_USER,
+    //import.meta.env.VITE_PROJETCT_USER_PASS
   )
   return <div style={{ flexBasis: "100%" }}>
     <MultiChatSocket {...chatProps} />
